@@ -1,0 +1,16 @@
+venv/
+env/
+.venv/
+
+__pycache__/
+*.pyc
+.pytest_cache/
+
+*.mp4
+*.avi
+*.mkv
+
+*.pt
+
+.DS_Store
+Thumbs.db

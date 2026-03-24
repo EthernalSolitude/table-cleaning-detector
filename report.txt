@@ -1,0 +1,68 @@
+ОТЧЕТ ПО ДЕТЕКЦИИ УБОРКИ СТОЛИКОВ
+==================================================
+
+СОБЫТИЯ:
+    timestamp from_state  to_state event_type  cleaning_time_sec
+0         0.5      empty  occupied   approach                NaN
+1       115.0   occupied     empty      leave                NaN
+2       119.5      empty  occupied   approach                4.5
+3       139.0   occupied     empty      leave                NaN
+4       139.5      empty  occupied   approach                0.5
+5       145.5   occupied     empty      leave                NaN
+6       149.5      empty  occupied   approach                4.0
+7       159.5   occupied     empty      leave                NaN
+8       160.5      empty  occupied   approach                1.0
+9       168.5   occupied     empty      leave                NaN
+10      176.5      empty  occupied   approach                8.0
+11      180.0   occupied     empty      leave                NaN
+12      180.5      empty  occupied   approach                0.5
+13      186.0   occupied     empty      leave                NaN
+14      193.5      empty  occupied   approach                7.5
+15      198.5   occupied     empty      leave                NaN
+16      199.0      empty  occupied   approach                0.5
+17      249.5   occupied     empty      leave                NaN
+18      256.0      empty  occupied   approach                6.5
+19      259.5   occupied     empty      leave                NaN
+20      264.0      empty  occupied   approach                4.5
+21      300.5   occupied     empty      leave                NaN
+22      308.5      empty  occupied   approach                8.0
+23      312.0   occupied     empty      leave                NaN
+24      315.5      empty  occupied   approach                3.5
+25      328.0   occupied     empty      leave                NaN
+26      333.0      empty  occupied   approach                5.0
+27      338.0   occupied     empty      leave                NaN
+28      338.5      empty  occupied   approach                0.5
+29      365.0   occupied     empty      leave                NaN
+30      366.5      empty  occupied   approach                1.5
+31      370.5   occupied     empty      leave                NaN
+32      389.5      empty  occupied   approach               19.0
+33      401.0   occupied     empty      leave                NaN
+34      401.5      empty  occupied   approach                0.5
+35      409.0   occupied     empty      leave                NaN
+36      412.5      empty  occupied   approach                3.5
+37      419.0   occupied     empty      leave                NaN
+38      423.5      empty  occupied   approach                4.5
+39      438.0   occupied     empty      leave                NaN
+40      438.5      empty  occupied   approach                0.5
+41      658.0   occupied     empty      leave                NaN
+42      699.5      empty  occupied   approach               41.5
+43      703.0   occupied     empty      leave                NaN
+44      704.5      empty  occupied   approach                1.5
+45      709.0   occupied     empty      leave                NaN
+46      713.5      empty  occupied   approach                4.5
+47      738.0   occupied     empty      leave                NaN
+48      738.5      empty  occupied   approach                0.5
+49      750.5   occupied     empty      leave                NaN
+50      757.5      empty  occupied   approach                7.0
+51      762.0   occupied     empty      leave                NaN
+52      768.0      empty  occupied   approach                6.0
+53      772.0   occupied     empty      leave                NaN
+54      781.5      empty  occupied   approach                9.5
+55      786.0   occupied     empty      leave                NaN
+56      787.0      empty  occupied   approach                1.0
+
+СТАТИСТИКА:
+Количество циклов (уход -> подход): 28
+Среднее время простоя/уборки стола: 5.55 секунд
+Минимальное время: 0.50 секунд
+Максимальное время: 41.50 секунд
